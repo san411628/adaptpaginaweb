@@ -31,8 +31,13 @@
         
         
        @media only screen and (min-width:300px) and (max-width: 780px) {   
-       padding-left: 5px;
-       font-size: 30px;
+    
+        font-size: 50px;
+        justify-content: end;
+        align-items: center;
+        height: 92%;
+        padding-left: 0px;
+
         
       }
 
@@ -40,14 +45,18 @@
             width: 100%;
             display: flex;
           
-        
+            @media only screen and (min-width:300px) and (max-width: 780px) {   
+                justify-content: center;
+                align-items: center;
+         
+            }
            
                .heading__media{
                 font-size: 30px;
                 @media only screen and (min-width:300px) and (max-width: 780px) {   
-                    font-size: 25%;
+                    font-size: 30%;
              
-                   }
+                }
                }
         }
 
@@ -58,8 +67,9 @@
             padding-top: 25px;
             
             @media only screen and (min-width:300px) and (max-width: 780px) {   
-                padding-top:0px ;
-         
+                padding-top: 5px ;
+                align-items: center;
+                justify-content: center;
              }
 
             .baner__buton{
@@ -68,9 +78,9 @@
                 border-radius: 5rem;
 
                 @media only screen and (min-width:300px) and (max-width: 780px) {   
-                    width: 40px;
+                    width: 60px;
                     height: fit-content;
-                    font-size: 5px;
+                    font-size: 10px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -85,10 +95,11 @@
        @media only screen and (min-width:300px) and (max-width: 780px) {   
         background-size: 510px;
         width: 471px;
-        height: 300px;
+        height: 570px;
         overflow: hidden;
         background-repeat: no-repeat;
         margin: 0px 0px;
+        background-image: url(https://i.ibb.co/fXzB37D/banermujer1mobile.jpg);
       }
     }
 
@@ -554,13 +565,16 @@
     align-items: center;
 
     
-    @media only screen and (min-width:300px) and (max-width: 780px) {   
-        background-size: 510px;
-        width: 471px;
-        height: 300px;
-        overflow: hidden;
-        background-repeat: no-repeat;
-        margin: 10px 0px;
+    @media only screen and (min-width:300px) and (max-width: 780px) { 
+
+            background-size: 510px;
+            width: 471px;
+            height: 570px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            margin: 0px 0px;
+            background-image: url(https://i.ibb.co/fnXg87X/baner2mobile.jpg);
+    
 
       }
     
@@ -575,18 +589,23 @@
         color: white;
         
               
+              
        @media only screen and (min-width:300px) and (max-width: 780px) {   
-        padding-left: 5px;
-        font-size: 30px;
-         
-
-       }
+    
+        font-size: 50px;
+        justify-content: end;
+        align-items: center;
+        height: 90%;
+        padding-left: 0px;
+        width: 100%;
+        
+      }
         
            
        .heading__media{
             font-size: 30px;
         @media only screen and (min-width:300px) and (max-width: 780px) {   
-            font-size: 25%;
+            font-size: 30%;
      
            }
        }
@@ -596,10 +615,11 @@
             display: flex;
             justify-content: flex-start;
             padding-top: 25px;
-    
+
             @media only screen and (min-width:300px) and (max-width: 780px) {   
-                padding-top:0px ;
-         
+                padding-top: 5px ;
+                align-items: center;
+                justify-content: center;
              }
 
             .baner__buton{
@@ -608,9 +628,9 @@
                 border-radius: 5rem;
     
                 @media only screen and (min-width:300px) and (max-width: 780px) {   
-                    width: 40px;
+                    width: 60px;
                     height: fit-content;
-                    font-size: 5px;
+                    font-size: 10px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -643,11 +663,13 @@
         
        @media only screen and (min-width:300px) and (max-width: 780px) {   
         background-size: 510px;
-        margin: 10px 0px;
-        width: 471px;
-        height: 300px;
-        overflow: hidden;
-        background-repeat: no-repeat;
+            width: 471px;
+            height: 570px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            margin: 0px 0px;
+            background-image: url(https://i.ibb.co/Yj7qBdX/banermobile3.jpg);
+    
 
       }
 
@@ -663,11 +685,14 @@
         color: whitesmoke;
 
         @media only screen and (min-width:300px) and (max-width: 780px) {   
-      
-            font-size: 20px;
-             
     
-           }
+            font-size: 50px;
+            align-items: center;
+            height: 30%;
+            padding-left: 0px;
+            width: 100%;
+            
+          }
 
         .baner__text--inferior{
             width: 100%;
@@ -701,14 +726,14 @@
                 border-radius: 5rem;
 
                 @media only screen and (min-width:300px) and (max-width: 780px) {   
-                    width: 40px;
+                    width: 60px;
                     height: fit-content;
-                    font-size: 5px;
+                    font-size: 10px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
             
-                }
+                  }
 
             }
         }

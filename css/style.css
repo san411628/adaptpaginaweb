@@ -692,20 +692,29 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .main__section--mujer .baner__text--container {
-    padding-left: 5px;
-    font-size: 30px;
+    font-size: 50px;
+    justify-content: end;
+    align-items: center;
+    height: 92%;
+    padding-left: 0px;
   }
 }
 .main__mujeres .main__section--mujer .baner__text--container .baner__text--inferior {
   width: 100%;
   display: flex;
 }
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__mujeres .main__section--mujer .baner__text--container .baner__text--inferior {
+    justify-content: center;
+    align-items: center;
+  }
+}
 .main__mujeres .main__section--mujer .baner__text--container .baner__text--inferior .heading__media {
   font-size: 30px;
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .main__section--mujer .baner__text--container .baner__text--inferior .heading__media {
-    font-size: 25%;
+    font-size: 30%;
   }
 }
 .main__mujeres .main__section--mujer .baner__text--container .baner__buton--inferior {
@@ -716,7 +725,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .main__section--mujer .baner__text--container .baner__buton--inferior {
-    padding-top: 0px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main__mujeres .main__section--mujer .baner__text--container .baner__buton--inferior .baner__buton {
@@ -726,9 +737,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .main__section--mujer .baner__text--container .baner__buton--inferior .baner__buton {
-    width: 40px;
+    width: 60px;
     height: fit-content;
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -738,10 +749,11 @@ ul {
   .main__mujeres .main__section--mujer {
     background-size: 510px;
     width: 471px;
-    height: 300px;
+    height: 570px;
     overflow: hidden;
     background-repeat: no-repeat;
     margin: 0px 0px;
+    background-image: url(https://i.ibb.co/fXzB37D/banermujer1mobile.jpg);
   }
 }
 .main__mujeres .mujeres__section--compra {
@@ -1092,10 +1104,11 @@ ul {
   .main__mujeres .section__mujer--baner2 {
     background-size: 510px;
     width: 471px;
-    height: 300px;
+    height: 570px;
     overflow: hidden;
     background-repeat: no-repeat;
-    margin: 10px 0px;
+    margin: 0px 0px;
+    background-image: url(https://i.ibb.co/fnXg87X/baner2mobile.jpg);
   }
 }
 .main__mujeres .section__mujer--baner2 .section__baner2--title {
@@ -1109,8 +1122,12 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__mujer--baner2 .section__baner2--title {
-    padding-left: 5px;
-    font-size: 30px;
+    font-size: 50px;
+    justify-content: end;
+    align-items: center;
+    height: 90%;
+    padding-left: 0px;
+    width: 100%;
   }
 }
 .main__mujeres .section__mujer--baner2 .section__baner2--title .heading__media {
@@ -1118,7 +1135,7 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__mujer--baner2 .section__baner2--title .heading__media {
-    font-size: 25%;
+    font-size: 30%;
   }
 }
 .main__mujeres .section__mujer--baner2 .section__baner2--title .baner__buton--inferior {
@@ -1129,7 +1146,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__mujer--baner2 .section__baner2--title .baner__buton--inferior {
-    padding-top: 0px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main__mujeres .section__mujer--baner2 .section__baner2--title .baner__buton--inferior .baner__buton {
@@ -1139,9 +1158,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__mujer--baner2 .section__baner2--title .baner__buton--inferior .baner__buton {
-    width: 40px;
+    width: 60px;
     height: fit-content;
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1161,11 +1180,12 @@ ul {
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__baner--streetwear {
     background-size: 510px;
-    margin: 10px 0px;
     width: 471px;
-    height: 300px;
+    height: 570px;
     overflow: hidden;
     background-repeat: no-repeat;
+    margin: 0px 0px;
+    background-image: url(https://i.ibb.co/Yj7qBdX/banermobile3.jpg);
   }
 }
 .main__mujeres .section__baner--streetwear .baner__text--container {
@@ -1180,7 +1200,11 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__baner--streetwear .baner__text--container {
-    font-size: 20px;
+    font-size: 50px;
+    align-items: center;
+    height: 30%;
+    padding-left: 0px;
+    width: 100%;
   }
 }
 .main__mujeres .section__baner--streetwear .baner__text--container .baner__text--inferior {
@@ -1214,9 +1238,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__mujeres .section__baner--streetwear .baner__text--container .baner__buton--inferior .baner__buton {
-    width: 40px;
+    width: 60px;
     height: fit-content;
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
