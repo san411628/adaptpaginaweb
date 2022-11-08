@@ -214,14 +214,7 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 760px) {
   .main__index .carousel-item .carousel-caption {
-    font-size: 20px;
-    top: 20%;
-  }
-}
-@media only screen and (min-width: 240px) and (max-width: 480px) {
-  .main__index .carousel-item .carousel-caption {
-    font-size: 10px;
-    top: 20%;
+    top: 0%;
   }
 }
 .main__index .carousel-item .carousel-caption .baner__content--desata {
@@ -235,15 +228,42 @@
   font-size: 70px;
   margin: 10px;
 }
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .carousel-item .carousel-caption .baner__content--desata .titulo__baner {
+    font-size: 20px;
+  }
+}
 .main__index .carousel-item .carousel-caption .baner__content--desata .baner__subtitel {
   font-size: 25px;
+}
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .carousel-item .carousel-caption .baner__content--desata .baner__subtitel {
+    font-size: 10px;
+  }
 }
 .main__index .carousel-item .carousel-caption .baner__buton--container {
   width: 150%;
 }
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .carousel-item .carousel-caption .baner__buton--container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+}
 .main__index .carousel-item .carousel-caption .baner__buton--container .carrusel__buton--link {
   margin: 0px 20px;
   width: 200px;
+}
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .carousel-item .carousel-caption .baner__buton--container .carrusel__buton--link {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .main__index .carousel-item .carousel-caption .baner__buton--container .carrusel__buton--link .baner__index--links {
   text-decoration: none;
@@ -251,6 +271,11 @@
   font-size: 15px;
   margin-left: 5px;
   color: white;
+}
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .carousel-item .carousel-caption .baner__buton--container .carrusel__buton--link .baner__index--links {
+    font-size: 5px;
+  }
 }
 .main__index .carousel-item .carousel-caption .baner__buton--container .carrusel__buton--link :focus {
   color: blue;
@@ -264,7 +289,8 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 760px) {
   .main__index .main__ADAPT {
-    visibility: collapse;
+    margin-top: 5px;
+    height: 300px;
   }
 }
 .main__index .main__ADAPT .informacion {
@@ -272,11 +298,21 @@
   height: 30%;
   padding-left: 25px;
 }
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .main__ADAPT .informacion {
+    height: 20%;
+  }
+}
 .main__index .main__ADAPT .informacion .informacion__titel {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: black;
   font-size: 30px;
+}
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .main__ADAPT .informacion .informacion__titel {
+    font-size: 20px;
+  }
 }
 .main__index .main__ADAPT .informacion__core {
   padding-left: 25px;
@@ -286,6 +322,11 @@
   font-weight: 600;
   color: #6e6e6e;
   font-size: 18px;
+}
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .main__ADAPT .informacion__core {
+    font-size: 14px;
+  }
 }
 .main__index .index__main--subtitel {
   width: 100%;
@@ -307,21 +348,163 @@
   font-family: "Raleway";
   font-weight: 500;
 }
-.main__index .index__main--subtitel .main__container--subtitel .text__enlace {
-  color: blue;
-  text-decoration: underline;
-  font-size: 17px;
-  padding-right: 25px;
-  cursor: pointer;
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .main__index .index__main--subtitel .main__container--subtitel .subtitel__box {
+    font-size: 35px;
+  }
 }
 .main__index .hombres__section--produtos {
   display: grid;
   grid-template-columns: repeat(5, 280px);
   grid-template-rows: 480px;
   gap: 20px;
-  row-gap: 50px;
   margin: 15px 35px;
-  padding-bottom: 30px;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos {
+    grid-template-columns: repeat(3, 136px);
+    grid-template-rows: 230px;
+    margin: 10px 10px;
+  }
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer {
+  display: grid;
+  margin-bottom: 0px;
+  position: relative;
+  text-decoration: none;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .hombres__productos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 .main__product--header2 {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 .main__product--header2 .main__producto--regalo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  margin: 5px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 .main__product--header2 .main__producto--regalo {
+    width: 10px;
+    height: 25px;
+  }
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 .main__product--header2 .main__producto--regalo .regalo {
+  width: 380%;
+  object-fit: cover;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 .main__product--header2 .main__producto--regalo .regalo {
+    width: 30px;
+  }
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container2 .main__product--header2 :focus {
+  background-color: gray;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 {
+  width: 95%;
+  height: 25%;
+  margin: 7px;
+  position: absolute;
+  bottom: 0px;
+  display: none;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5%;
+  width: 100%;
+  color: black;
+  height: 100%;
+  flex-direction: column;
+  background-color: rgba(255, 253, 253, 0.75);
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__interactive--text {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--agregar {
+  width: 100%;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--button {
+  border: #839192 solid 1px;
+  width: 20%;
+  color: black;
+  font-weight: 400;
+  margin: 5px;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer :hover + .main__interactive--animation2 {
+  display: inline-block;
+  animation-name: pull2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes pull2 {
+  0% {
+    transform: translateY(55px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer :hover + .main__interactive--animation2 {
+    display: none;
+  }
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info {
+  border-left: black solid 5px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: black;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info .span__new {
+  margin-left: 5px;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info .span__valor {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--nombre {
+  width: 100%;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+.main__index .hombres__section--produtos .hombres__griddcontainer:hover {
+  border: black solid 1px;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .img__final--grid {
+    display: none !important;
+  }
 }
 .main__index .hombres__section--produtos .hombres__griddcontainer {
   display: grid;
@@ -354,9 +537,20 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container .main__product--header .main__producto--regalo {
+    width: 10px;
+    height: 25px;
+  }
+}
 .main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container .main__product--header .main__producto--regalo .regalo {
   width: 380%;
   object-fit: cover;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container .main__product--header .main__producto--regalo .regalo {
+    width: 30px;
+  }
 }
 .main__index .hombres__section--produtos .hombres__griddcontainer .main__pheader--container .main__product--header :focus {
   background-color: gray;
@@ -407,6 +601,11 @@
     transform: translateY(-70px);
   }
 }
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer :hover + .main__interactive--animation {
+    display: none;
+  }
+}
 .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info {
   border-left: black solid 5px;
   width: 100%;
@@ -418,13 +617,30 @@
   justify-content: space-between;
   margin-top: 5px;
 }
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info {
+    font-size: 10px;
+    border-left: black solid 2px;
+    height: 10px;
+  }
+}
 .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info .span__new {
   margin-left: 5px;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info .span__new {
+    font-size: 5px;
+  }
 }
 .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info .span__valor {
   font-weight: 500;
   font-size: 20px;
   margin-right: 5px;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--info .span__valor {
+    font-size: 7px;
+  }
 }
 .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--nombre {
   width: 100%;
@@ -433,8 +649,19 @@
   font-size: 15px;
   font-weight: 500;
 }
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .hombres__griddcontainer .main__producto--nombre {
+    margin-top: 0px;
+    font-size: 7px;
+  }
+}
 .main__index .hombres__section--produtos .hombres__griddcontainer:hover {
   border: black solid 1px;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__index .hombres__section--produtos .img__final--grid {
+    display: none;
+  }
 }
 
 * {
@@ -1247,7 +1474,7 @@ ul {
   }
 }
 
-.main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive .main__producto--agregar, .main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive, .main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--agregar, .main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2, .main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive, .main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive .main__producto--agregar, .footer .footer__box--container .Footer__logo--container, .footer .footer__box--container .footer__links--container .container__info--titel, .footer .footer__box--container .footer__container--info .container__info--titel, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation2 .main__producto--interactive2, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--agregar, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation .main__producto--interactive, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation .main__producto--interactive .main__producto--agregar {
+.main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive .main__producto--agregar, .main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive, .main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--agregar, .main__hombre .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2, .main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2, .main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--agregar, .main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive, .main__index .hombres__section--produtos .hombres__griddcontainer .main__interactive--animation .main__producto--interactive .main__producto--agregar, .footer .footer__box--container .Footer__logo--container, .footer .footer__box--container .footer__links--container .container__info--titel, .footer .footer__box--container .footer__container--info .container__info--titel, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation2 .main__producto--interactive2, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation2 .main__producto--interactive2 .main__producto--agregar, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation .main__producto--interactive, .main__mujeres .mujeres__section--produtos .mujeres__griddcontainer .main__interactive--animation .main__producto--interactive .main__producto--agregar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1279,10 +1506,11 @@ ul {
   .main__hombre .main__section--hombre {
     background-size: 510px;
     width: 471px;
-    height: 300px;
+    height: 570px;
     overflow: hidden;
     background-repeat: no-repeat;
     margin: 0px 0px;
+    background-image: url(https://i.ibb.co/9ckLT6C/banermobile1h.png);
   }
 }
 .main__hombre .main__section--hombre .baner__text--container {
@@ -1298,20 +1526,29 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .main__section--hombre .baner__text--container {
-    padding-left: 5px;
-    font-size: 30px;
+    font-size: 50px;
+    justify-content: end;
+    align-items: center;
+    height: 95%;
+    padding-left: 0px;
   }
 }
 .main__hombre .main__section--hombre .baner__text--container .baner__text--inferior {
   width: 100%;
   display: flex;
 }
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__hombre .main__section--hombre .baner__text--container .baner__text--inferior {
+    justify-content: center;
+    align-items: center;
+  }
+}
 .main__hombre .main__section--hombre .baner__text--container .baner__text--inferior .heading__media {
   font-size: 30px;
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .main__section--hombre .baner__text--container .baner__text--inferior .heading__media {
-    font-size: 25%;
+    font-size: 30%;
   }
 }
 .main__hombre .main__section--hombre .baner__text--container .baner__buton--inferior {
@@ -1322,7 +1559,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .main__section--hombre .baner__text--container .baner__buton--inferior {
-    padding-top: 0px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main__hombre .main__section--hombre .baner__text--container .baner__buton--inferior .baner__buton {
@@ -1332,9 +1571,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .main__section--hombre .baner__text--container .baner__buton--inferior .baner__buton {
-    width: 40px;
+    width: 60px;
     height: fit-content;
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1688,10 +1927,11 @@ ul {
   .main__hombre .section__hombre--baner2 {
     background-size: 510px;
     width: 471px;
-    height: 300px;
+    height: 570px;
     overflow: hidden;
     background-repeat: no-repeat;
-    margin: 10px 0px;
+    margin: 0px 0px;
+    background-image: url(https://i.ibb.co/mNWmbL2/baner2mobileh.png);
   }
 }
 .main__hombre .section__hombre--baner2 .section__baner2--title {
@@ -1705,8 +1945,12 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner2 .section__baner2--title {
-    padding-left: 5px;
-    font-size: 30px;
+    font-size: 50px;
+    justify-content: end;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    padding-left: 0px;
   }
 }
 .main__hombre .section__hombre--baner2 .section__baner2--title .heading__media {
@@ -1714,7 +1958,7 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner2 .section__baner2--title .heading__media {
-    font-size: 25%;
+    font-size: 30%;
   }
 }
 .main__hombre .section__hombre--baner2 .section__baner2--title .baner__buton--inferior {
@@ -1725,7 +1969,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner2 .section__baner2--title .baner__buton--inferior {
-    padding-top: 0px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main__hombre .section__hombre--baner2 .section__baner2--title .baner__buton--inferior .baner__buton {
@@ -1735,9 +1981,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner2 .section__baner2--title .baner__buton--inferior .baner__buton {
-    width: 40px;
+    width: 60px;
     height: fit-content;
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1757,11 +2003,12 @@ ul {
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner3 {
     background-size: 510px;
-    margin: 10px 0px;
     width: 471px;
-    height: 300px;
+    height: 570px;
     overflow: hidden;
     background-repeat: no-repeat;
+    margin: 0px 0px;
+    background-image: url(https://i.ibb.co/s21NZjj/banewwww.jpg);
   }
 }
 .main__hombre .section__hombre--baner3 .baner__text--container {
@@ -1778,15 +2025,24 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner3 .baner__text--container {
-    font-size: 30px;
-    justify-content: flex-end;
-    padding-left: 50px;
+    font-size: 40px;
+    justify-content: end;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+    padding-left: 0px;
   }
 }
 .main__hombre .section__hombre--baner3 .baner__text--container .baner__text--inferior {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+}
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .main__hombre .section__hombre--baner3 .baner__text--container .baner__text--inferior {
+    justify-content: center;
+    align-items: center;
+  }
 }
 .main__hombre .section__hombre--baner3 .baner__text--container .baner__text--inferior .heading__media {
   font-size: 25px;
@@ -1804,7 +2060,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner3 .baner__text--container .baner__buton--inferior {
-    padding-top: 0px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main__hombre .section__hombre--baner3 .baner__text--container .baner__buton--inferior .baner__buton {
@@ -1814,9 +2072,9 @@ ul {
 }
 @media only screen and (min-width: 300px) and (max-width: 780px) {
   .main__hombre .section__hombre--baner3 .baner__text--container .baner__buton--inferior .baner__buton {
-    width: 40px;
+    width: 60px;
     height: fit-content;
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
